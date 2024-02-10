@@ -1,0 +1,10 @@
+import React from 'react'
+import Base from '../Components/Base'
+
+const About = () => {
+  return (
+ <></>
+  )
+}
+
+export default About

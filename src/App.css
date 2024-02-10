@@ -1,3 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./blog2.avif');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: #19a551; Set your desired dark background color */
+  color: #fff; /* Set your desired text color */
+  font-family: 'Arial', sans-serif; /* Set your desired font */
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Add any other global styles as needed */
+
+/* Add these styles to your footer component or a dedicated stylesheet */
+
+.custom-text-color {
+  color: black; /* Replace with your desired color */
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #6c5eeb;
+  padding: 10px;
+  text-align: center;
+  /* Add any additional styles you want for your footer */
+}
+
 .App {
   text-align: center;
 }
